@@ -50,7 +50,7 @@ const features = [
 ];
 
 export default function Features() {
-  const sectionRef = useRef(null);
+  const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

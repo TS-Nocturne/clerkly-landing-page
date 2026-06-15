@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 export default function CallToAction() {
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

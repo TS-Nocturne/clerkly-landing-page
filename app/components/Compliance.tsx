@@ -1,9 +1,9 @@
-"use client";
+"use client"
 
 import { useEffect, useRef } from "react";
 
 export default function Compliance() {
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

@@ -13,7 +13,7 @@ export const metadata = {
     "Clerkly AI automates and scales your TikTok Shop sales with instant AI responses, live catalog integration, and automated closing — 24/7.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} scroll-smooth`}>
       <body className="font-sans antialiased">{children}</body>
