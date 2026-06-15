@@ -1,5 +1,5 @@
 {
-  "name": "clerkly-temp",
+  "name": "clerkly",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint"
   },
-  "packageManager": "pnpm@9.1.0",
+  "packageManager": "pnpm@9.15.4",
   "dependencies": {
     "next": "16.2.9",
     "react": "19.2.4",
